@@ -13,9 +13,9 @@ Cross-platform screenshots for emacs
 ### 安装capture-image
 直接git clone到你的load-path.    
 然后在.emacs中加入  
-    `(require 'capture-image)   
-    ;;bind hot key  
-    (global-set-key (kbd "C-c C-h") 'iyf-screenshot);;`  
+    `(require 'capture-image)`   
+    `;;bind hot key`  
+    `(global-set-key (kbd "C-c C-h") 'iyf-screenshot);;`  
 快捷键可以自定义.  
 默认情况下:  
   `C-c C-h`  
