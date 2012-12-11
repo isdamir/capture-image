@@ -11,7 +11,7 @@ Cross-platform screenshots for emacs
  
   可以通过`java -version)`来检查是否安装.
 ### 安装capture-image
-直接git clone到你的load-path.    
+直接`git clone https://github.com/iyf/capture-image.git`到你的load-path.    
 然后在.emacs中加入  
 
         (require 'capture-image)
