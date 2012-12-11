@@ -9,16 +9,16 @@ Cross-platform screenshots for emacs
   程序为java,需要jre的支持.这里不再详述安装方法.  
   linux可以参考: http://iyf.cc/archives/253
  
-  可以通过(`java -version)来检查是否安装.
+  可以通过`java -version)`来检查是否安装.
 ### 安装capture-image
 直接git clone到你的load-path.    
 然后在.emacs中加入  
-    (require 'capture-image)  
-    ;;bind hot key  
-    (global-set-key (kbd "C-c C-h") 'iyf-screenshot);;  
+    `(require 'capture-image)`   
+    `;;bind hot key`  
+    `(global-set-key (kbd "C-c C-h") 'iyf-screenshot);;`  
 快捷键可以自定义.  
 默认情况下:  
-  C-c C-h  
+  `C-c C-h`  
 即可启动截图,屏幕会出现十字形,左键拉动即可选择返回,释放左键就完成.  
 会自动保存文件并插入当前位置.
 
