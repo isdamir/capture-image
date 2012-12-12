@@ -27,7 +27,7 @@ Cross-platform screenshots for emacs
 # 使用
   执行后会出现十字行，点击左键后拉动即可选取范围，松开左键就自动保存，在选择界面按ESC可以取消。
 # 注意
-必须要安装jre才能使用.  
+必须要安装jre才能使用.  第一次启动可能需要2秒左右，第一次启动过后就会很快了。
 
 # 其他
 java截图程序来自于: https://github.com/iyf/CaptureImage  
